@@ -1,0 +1,86 @@
+<div class="wrap">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md d-flex align-items-center">
+          <p class="mb-0 phone">
+            <span class="mailus">Phone no:</span>
+            <a href="tel://+919898943684">+91 9898943684</a> or
+            <span class="mailus">email us:</span>
+            <a href="mailto:arukawellnessindia@gmail.com">arukawellnessindia@gmail.com</a>
+          </p>
+        </div>
+        <div class="col-12 col-md d-flex justify-content-md-end">
+          <div class="social-media">
+            <p class="mb-0 d-flex">
+              <a
+                href="https://www.facebook.com/profile.php?id=100087598392084&amp;mibextid=ZbWKwL" target="_blank"
+                class="d-flex align-items-center justify-content-center"
+                ><span class="fa fa-facebook"
+                  ><i class="sr-only">Facebook</i></span
+                ></a
+              >
+              {# <a
+                href="#"
+                class="d-flex align-items-center justify-content-center"
+                ><span class="fa fa-twitter"
+                  ><i class="sr-only">Twitter</i></span
+                ></a
+              > #}
+              <a
+                href="https://www.instagram.com/arukawellnessindia/" target="_blank"
+                class="d-flex align-items-center justify-content-center"
+                ><span class="fa fa-instagram"
+                  ><i class="sr-only">Instagram</i></span
+                ></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light sleep"
+    id="ftco-navbar"
+  >
+    <div class="container">
+     <a class="navbar-brand" href="/">Aruka Wellness</a> 
+      <!-- <img src="/images/ARUKA.png" alt="aruka_logo" class="navbar-brand img rounded" width="159px" height="159px" > -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#ftco-nav"
+        aria-controls="ftco-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="fa fa-bars"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item {% if alias == 'about' %}active{% endif %}">
+            <a href="/about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item {% if alias == 'trainer' %}active{% endif %}">
+            <a href="/trainer" class="nav-link">Trainer</a>
+          </li>
+          <li class="nav-item {% if alias == 'classes' %}active{% endif %}">
+            <a href="/classes" class="nav-link">Classes</a>
+          </li>
+          <li class="nav-item {% if alias == 'schedule' %}active{% endif %}">
+            <a href="/schedule" class="nav-link">Schedule</a>
+          </li>
+          {# <li class="nav-item {% if alias == 'blog' %}active{% endif %}">
+            <a href="/blog" class="nav-link">Blog</a>
+          </li> #}
+          <li class="nav-item {% if alias == 'contact' %}active{% endif %}">
+            <a href="/contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
